@@ -17,10 +17,21 @@ header h1 {
     margin: 0;
     display: inline;
   }
+
+  section h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+    background-color: #ffffff;
+  }
   
   header a {
     text-decoration: none;
     color: #fce138;
+    background-color: #ffffff;
+    display: inline;
   }
 
 header nav {
@@ -28,14 +39,12 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
-}
-
 header nav ul li a {
+    display: outside;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    background-color: #ffffff;
 }
 
   * {
