@@ -21,7 +21,7 @@ header h1 {
   section h2 {
     font-weight: bold;
     font-size: 24px;
-    color: #fce138;
+    color: #39a6b2;
     margin: 0;
     display: inline;
     background-color: #ffffff;
@@ -40,14 +40,47 @@ header nav {
 }
 
 header nav ul li a {
-    display: outside;
+    display: inside;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-    background-color: #ffffff;
+    background-color: #39a6b2;
 }
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer a {
+    color: #024e76;
+  }
 
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+
+  li::marker{
+    color: #39a6b2;
+  }
+
+  section {
+    padding: 60px;
+    background-image: "../projects/run-buddy/hero-bg.jpg";
   }
