@@ -80,7 +80,18 @@ header nav ul li a {
     color: #39a6b2;
   }
 
-  section {
-    padding: 60px;
-    background-image: "../projects/run-buddy/hero-bg.jpg";
-  }
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+/* Hero Style End */
+
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+}
