@@ -6,6 +6,14 @@ body {
 
 /* apply styles to <header> */
 header {
+  background-attachment: fixed;
+  background-position: 80%;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   padding: 20px 35px;
   background-color: #39a6b2;
 }
@@ -59,12 +67,14 @@ header nav ul {
 }
 
 header nav ul li a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
 
 header h1 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   font-size: 36px;
   color: #fce138;
@@ -103,6 +113,11 @@ footer a {
 
 /* Hero Style Start */
 .hero {
+  background-attachment: fixed;
+  background-position: 80%;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
   align-items: flex-start;
   background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
   display: flex;
@@ -116,8 +131,9 @@ footer a {
 .hero-form {
   background-color: #fce138;
   padding: 20px;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #024e76;
+  border-radius: 15px;
 }
 
 .hero-form {
@@ -151,6 +167,7 @@ footer a {
 }
 
 .form-input {
+  background-color: rgba(255,255,255, 0.75);
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -158,6 +175,11 @@ footer a {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 
 .hero-form label {
@@ -179,6 +201,7 @@ footer a {
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta h2 {
@@ -231,6 +254,15 @@ footer a {
 
 }
 
+.step:last-child {
+  border-bottom: 1px solid #39a6b2;
+  border-bottom: none;
+}
+
+.step:nth-child(even) {
+  border-bottom: 1px solid #39a6b2;
+}
+
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
@@ -243,6 +275,7 @@ footer a {
 }
 
 .step {
+  border-bottom: 1px solid #39a6b2;
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -428,9 +461,12 @@ iframe {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  
   header h1 a {
-    /* this will be applied on any screen smaller than 980px */
+    position: relative;
     color: tomato;
+    /* this will be applied on any screen smaller than 980px */
+    
   }
 }
 
@@ -658,4 +694,67 @@ iframe {
 
 .service-grid-container {
   grid-template-columns: 1fr 1fr;
+}
+
+.some-class {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.form-input {
+  border-radius: 10px;
+}
+
+.hero-form button {
+  border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  border-radius: 10px;
+}
+
+.contact-form button {
+  border-radius: 10px;
+}
+
+.rounded-corners {
+  -webkit-border-radius: 10px; /* old versions of chrome and safari */
+  -moz-border-radius: 10px; /* old versions of firefox */
+  border-radius: 10px; /* standardized browsers */
+}
+
+/* default state */
+button {
+  background: white;
+}
+
+/* mouse is hovering over button */
+button:hover {
+  background: red;
+}
+
+/* button is in focus because it was the most recently clicked element on the page */
+button:focus {
+  background: green;
+}
+
+/* user is actively pressing the cursor down on the button */
+button:active {
+  background: blue;
+}
+
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
