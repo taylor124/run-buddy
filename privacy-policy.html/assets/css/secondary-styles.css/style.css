@@ -1,0 +1,278 @@
+.secondary-content {
+    width: 80%;
+}
+
+.secondary-content article {
+    color: #024e76;
+}
+
+.secondary-content h3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #39a6b2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* homepage hero */
+.hero {
+    margin: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  /* secondary page hero */
+  .hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+  }
+  
+  .hero {
+    margin: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+  }
+  
+  /* these two colors will override the ones above in .hero */
+  .hero-secondary {
+    background-color: black;
+    color: red;
+  }
+  
+  .hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero {
+    background-image: url(../assets/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .page-title h2 {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  
+   /* Applies 20px to every side (top, right, bottom, left) */
+   header {
+    padding: 20px;
+  }
+  
+  /* Applies 20px to the top and bottom, then 35px to the left and right */
+  header {
+    padding: 20px 35px;
+  }
+  
+  /* Applies 10px to the top, 15px to the right, 20px to the bottom, 25px to the left (in that specific clockwise order) */
+  header {
+    padding: 10px 15px 20px 25px;
+  }
+  
+  /* Explicitly list the side it should be applied to*/
+  header {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+    float: left;
+    padding: 12px;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  
+   /* Applies 20px to every side (top, right, bottom, left) */
+   header {
+    padding: 20px;
+  }
+  
+  /* Applies 20px to the top and bottom, then 35px to the left and right */
+  header {
+    padding: 20px 35px;
+  }
+  
+  /* Applies 10px to the top, 15px to the right, 20px to the bottom, 25px to the left (in that specific clockwise order) */
+  header {
+    padding: 10px 15px 20px 25px;
+  }
+  
+  /* Explicitly list the side it should be applied to*/
+  header {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+    float: left;
+    padding: 12px;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
+  
+  /* Hero Style Start */
+  .hero {
+    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+  }
+  
+  .hero-form {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+  }
+  
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+  
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
